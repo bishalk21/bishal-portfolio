@@ -1,7 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import Home from "./components/home/Home";
 import { Navbar } from "./components/navbar/Navbar";
-import "./style/App.css";
+import "./style/App.scss";
 import GlobalStyles from "./style/GlobalStyle";
 import { theme } from "./style/Theme";
 
@@ -20,6 +21,7 @@ function App() {
         <>
           <GlobalStyles />
           <Navbar />
+          <Home />
         </>
       </ThemeProvider>
     </BrowserRouter>

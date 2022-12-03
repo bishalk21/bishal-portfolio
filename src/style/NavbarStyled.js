@@ -1,17 +1,16 @@
 import styled from "styled-components";
 import { Link as NavLink } from "react-scroll";
 
-export const NavbarStyle = styled.nav`
+export const StyledNavbar = styled.nav`
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 7.5625rem;
-  padding: 0 5.5rem;
+  padding: 0 5rem;
   transition: 0.5s ease-in-out;
   z-index: 999;
   color: #fff;
@@ -21,8 +20,6 @@ export const NavbarStyle = styled.nav`
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
-    align-items: center;
     background-color: ${({ theme }) => theme.backgroundColor.dark};
     height: 5.32875rem;
     z-index: 999;
@@ -41,10 +38,9 @@ export const NavLogo = styled.img`
 export const NavMenuList = styled.ul`
   display: flex;
   list-style: none;
-  gap: 1.8rem;
+  gap: 1.5rem;
   flex: 1;
   margin-left: 8rem;
-  margin-top: 1rem;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;
@@ -54,7 +50,7 @@ export const NavMenuList = styled.ul`
 export const NavList = styled.li``;
 
 export const StyledNavLinks = styled(NavLink)`
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   letter-spacing: 0.09375rem;
   color: ${({ theme }) => theme.color.lightGray};
   transition: 0.3s ease;
@@ -72,7 +68,7 @@ export const StyledNavLinks = styled(NavLink)`
     width: 0;
     transform: scaleX(1);
     height: 0.0625rem;
-    background: ${({ theme }) => theme.backgroundColor.purple};
+    background: ${({ theme }) => theme.backgroundColor.orange};
     transition: 0.3s ease-in-out;
   }
 
@@ -109,6 +105,7 @@ export const StyledCTA = styled.a`
   transition: 0.3s ease;
   position: relative;
   overflow: hidden;
+  color: ${({ theme }) => theme.color.white};
 
   &::before,
   &::after {
@@ -117,6 +114,7 @@ export const StyledCTA = styled.a`
     left: 0;
     width: 100%;
     height: 100%;
+    color: ${({ theme }) => theme.color.white};
   }
 
   & span {
@@ -136,6 +134,7 @@ export const StyledCTA = styled.a`
 
   &:hover > span > span {
     animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+    color: ${({ theme }) => theme.color.white};
   }
 
   @keyframes MoveUpInitial {

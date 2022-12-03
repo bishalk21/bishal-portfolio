@@ -7,8 +7,13 @@ export const theme = {
     dark: "#0d0e0e",
     light: "#ffffff",
     orange: "#e64e04",
+    gray: "#c4c4c4",
+    black: "#000000",
     darkGray: "#111",
     purple: "#8000ff",
+    white: "#ffffff",
+    lightPurple: "rgb(207, 89, 230)",
+    lightBlue: "#6BC5F8",
   },
   color: {
     dark: "#000000",
@@ -20,6 +25,9 @@ export const theme = {
     link: "#4353ff",
     lightPurple: "rgb(207, 89, 230)",
     lightBlue: "#6BC5F8",
+    white: "#ffffff",
+    gray: "#c4c4c4",
+    black: "#000000",
   },
   CTA: {
     primary: "#e64e04",

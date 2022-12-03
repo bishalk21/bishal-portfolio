@@ -30,7 +30,7 @@ export const MobileMenu = ({ isOpen, toggle }) => {
           About
         </MobileMenuLink>
         <MobileMenuLink to="playground" onClick={toggle}>
-          Blog
+          Blogs
         </MobileMenuLink>
         <MobileButton
           href="mailto:karkibishal00@gmail.com"

@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import {
   Line,
   Menu,
-  NavbarStyle,
   NavList,
   NavLogo,
   NavMenuList,
   StyledCTA,
+  StyledNavbar,
   StyledNavLinks,
 } from "../../style/NavbarStyled";
 import { animateScroll as scroll } from "react-scroll";
@@ -39,7 +39,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <NavbarStyle className={stickyNav ? "sticky" : ""}>
+      <StyledNavbar className={stickyNav ? "sticky" : ""}>
         <div className="title">
           <NavLogo
             to="/"
@@ -141,7 +141,7 @@ export const Navbar = () => {
         </div>
 
         <MobileMenu isOpen={isOpen} toggle={toggle} />
-      </NavbarStyle>
+      </StyledNavbar>
     </>
   );
 };

@@ -3,8 +3,8 @@ import { ThemeProvider } from "styled-components";
 import Home from "./components/home/Home";
 import { Navbar } from "./components/navbar/Navbar";
 import "./style/App.scss";
-import GlobalStyles from "./style/GlobalStyle";
-import { theme } from "./style/Theme";
+import GlobalStyles from "./style/global/GlobalStyle";
+import { theme } from "./style/global/Theme";
 
 function App() {
   console.log(

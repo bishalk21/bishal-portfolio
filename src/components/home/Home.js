@@ -6,7 +6,6 @@ import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
-import { StyledButton } from "../../style/ButtonStyles";
 import {
   Name,
   StyledButtonsContainer,
@@ -17,7 +16,8 @@ import {
   Social,
   Socials,
   Quote,
-} from "../../style/HomeStyles";
+} from "../../style/home/HomeStyles";
+import { StyledButton } from "../../style/button/ButtonStyles";
 
 const Home = () => {
   let today = new Date();

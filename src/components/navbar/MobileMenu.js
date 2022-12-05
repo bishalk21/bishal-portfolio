@@ -10,7 +10,7 @@ import {
   MobileSocial,
   MobileQuote,
   CloseText,
-} from "../../style/MobileMenuStyles";
+} from "../../style/navbar/MobileMenuStyles";
 
 export const MobileMenu = ({ isOpen, toggle }) => {
   return (

@@ -8,7 +8,7 @@ import {
   StyledCTA,
   StyledNavbar,
   StyledNavLinks,
-} from "../../style/NavbarStyled";
+} from "../../style/navbar/NavbarStyled";
 import { animateScroll as scroll } from "react-scroll";
 import logo from "../../assets/me.png";
 import { MobileMenu } from "./MobileMenu";

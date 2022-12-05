@@ -77,6 +77,7 @@ export const Resume = styled.div`
   margin-top: 3rem;
   position: relative;
   transition: 0.3s ease;
+  ${"" /* background: ${({ theme }) => theme.backgroundColor.purple} */}
 
   &::after {
     content: "";
@@ -126,6 +127,9 @@ export const ResumeLink = styled.a`
     filter: alpha(opacity=100);
     -webkit-transform: translateX(0);
     transform: translateX(0);
+  }
+  &:hover::after {
+    color: ${({ theme }) => theme.color.light};
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {

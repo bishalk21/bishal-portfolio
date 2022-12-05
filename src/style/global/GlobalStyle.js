@@ -26,7 +26,12 @@ const GlobalStyles = createGlobalStyle`
 
     a {
     text-decoration: none;
-    color: inherit;
+    ${"" /* color: inherit; */}
+    }
+
+    a:hover{
+        text-decoration:none;
+        color: white;
     }
 
     section,

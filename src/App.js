@@ -3,7 +3,9 @@ import { ThemeProvider } from "styled-components";
 import { About } from "./components/about/About";
 import Home from "./components/home/Home";
 import { Navbar } from "./components/navbar/Navbar";
+import ParallaxComponent from "./components/parallax/Parallax";
 import { Projects } from "./components/projects/Projects";
+import Technologies from "./components/technologies/Technologies";
 import "./style/App.scss";
 import GlobalStyles from "./style/global/GlobalStyle";
 import { theme } from "./style/global/Theme";
@@ -26,6 +28,8 @@ function App() {
           <Home />
           <Projects />
           <About />
+          <ParallaxComponent />
+          <Technologies />
         </>
       </ThemeProvider>
     </BrowserRouter>

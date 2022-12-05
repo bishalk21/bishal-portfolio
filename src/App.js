@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import Home from "./components/home/Home";
 import { Navbar } from "./components/navbar/Navbar";
+import { Projects } from "./components/projects/Projects";
 import "./style/App.scss";
 import GlobalStyles from "./style/global/GlobalStyle";
 import { theme } from "./style/global/Theme";
@@ -22,6 +23,7 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
+          <Projects />
         </>
       </ThemeProvider>
     </BrowserRouter>

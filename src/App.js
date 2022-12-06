@@ -1,9 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { About } from "./components/about/About";
+import Footer from "./components/Footer/Footer";
 import Home from "./components/home/Home";
 import { Navbar } from "./components/navbar/Navbar";
 import ParallaxComponent from "./components/parallax/Parallax";
+// import Playground from "./components/playground/Playground";
 import { Projects } from "./components/projects/Projects";
 import Technologies from "./components/technologies/Technologies";
 import "./style/App.scss";
@@ -26,10 +28,11 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
+          <Technologies />
           <Projects />
           <About />
           <ParallaxComponent />
-          <Technologies />
+          <Footer />
         </>
       </ThemeProvider>
     </BrowserRouter>

@@ -3,6 +3,8 @@ import {
   calculator2,
   calculator3,
   calculator4,
+  movielist1,
+  movielist2,
   ft1,
   ft2,
   habitTracker,
@@ -29,6 +31,14 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: movielist1,
+    transitionImage: movielist2,
+    title: "My Movie List",
+    codeLink: "https://github.com/bishalk21/movie-app",
+    liveLink: "https://movie-app-bishalk21.vercel.app/",
+  },
+  {
+    id: 4,
     image: ft1,
     transitionImage: ft2,
     title: "My Finance Tracker",
@@ -36,7 +46,7 @@ export const projectsData = [
     liveLink: "https://my-finance-tracker.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     image: notToDo1,
     transitionImage: notToDo12,
     title: "My To Do List App",
@@ -44,7 +54,7 @@ export const projectsData = [
     liveLink: "https://not-to-do-list-app.herokuapp.com/",
   },
   {
-    id: 5,
+    id: 6,
     image: habitTracker,
     transitionImage: habitTracker,
     title: "Habit Tracker",

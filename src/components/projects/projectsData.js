@@ -5,11 +5,11 @@ import {
   calculator4,
   movielist1,
   movielist2,
+    notToDo1,
+  notToDo12,
   ft1,
   ft2,
   habitTracker,
-  notToDo1,
-  notToDo12,
 } from "./prjectImages";
 
 export const projectsData = [
@@ -39,20 +39,21 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: ft1,
-    transitionImage: ft2,
-    title: "My Finance Tracker",
-    codeLink: "https://github.com/bishalk21/my-finance-tracker",
-    liveLink: "https://my-finance-tracker.herokuapp.com/",
-  },
-  {
-    id: 5,
     image: notToDo1,
     transitionImage: notToDo12,
     title: "My To Do List App",
     codeLink: "https://github.com/bishalk21/FS-not-to-do-app",
     liveLink: "https://not-to-do-list-app.herokuapp.com/",
   },
+  {
+    id: 5,
+    image: ft1,
+    transitionImage: ft2,
+    title: "My Finance Tracker",
+    codeLink: "https://github.com/bishalk21/my-finance-tracker",
+    liveLink: "https://my-finance-tracker.herokuapp.com/",
+  },
+
   {
     id: 6,
     image: habitTracker,

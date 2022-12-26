@@ -10,11 +10,14 @@ import calculator4 from "../../assets/projects/react-calc-2.png";
 import movielist1 from "../../assets/projects/movie-list-1.png";
 import movielist2 from "../../assets/projects/movie-list-2.png";
 
+// NOT TO DO LIST APP
+import notToDo1 from "../../assets/projects/not-to-do-1.png";
+import notToDo12 from "../../assets/projects/not-to-do-2.png";
+
 import ft1 from "../../assets/projects/ft1.png";
 import ft2 from "../../assets/projects/ft2.png";
 import habitTracker from "../../assets/projects/habittracker.png";
-import notToDo1 from "../../assets/projects/nottodo.png";
-import notToDo12 from "../../assets/projects/ntfl.png";
+
 
 export {
   calculator1,

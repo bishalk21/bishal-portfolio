@@ -14,8 +14,9 @@ import movielist2 from "../../assets/projects/movie-list-2.png";
 import notToDo1 from "../../assets/projects/not-to-do-1.png";
 import notToDo12 from "../../assets/projects/not-to-do-2.png";
 
-import ft1 from "../../assets/projects/ft1.png";
-import ft2 from "../../assets/projects/ft2.png";
+// EXPENSE TRACKER
+import ft1 from "../../assets/projects/ET1.png";
+import ft2 from "../../assets/projects/ET2.png";
 import habitTracker from "../../assets/projects/habittracker.png";
 
 
@@ -26,9 +27,9 @@ export {
   calculator4,
   movielist1,
   movielist2,
+  notToDo1,
+  notToDo12,
   ft1,
   ft2,
   habitTracker,
-  notToDo1,
-  notToDo12,
 };

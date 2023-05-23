@@ -62,7 +62,7 @@ export const MobileMenu = ({ isOpen, toggle }) => {
           <i class="fa-solid fa-envelope"></i> GM
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/bishalk21"
           target="_blank"
           rel="noopener noreferrer"
         >

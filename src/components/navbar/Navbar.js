@@ -32,6 +32,15 @@ export const Navbar = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
+  const ScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  ScrollToTop();
+
   // mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
